@@ -1,4 +1,4 @@
-package com.task.Room_Mangement_System.dtos;
+package com.task.Room_Mangement_System.dto;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

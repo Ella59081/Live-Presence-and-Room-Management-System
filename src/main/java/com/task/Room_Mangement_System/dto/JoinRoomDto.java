@@ -1,4 +1,5 @@
-package com.task.Room_Mangement_System.dtos;
+package com.task.Room_Mangement_System.dto;
+
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -7,7 +8,9 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class LeaveRoomDto {
+
+public class JoinRoomDto {
     private String username;
+    private String roomId;
 }
 

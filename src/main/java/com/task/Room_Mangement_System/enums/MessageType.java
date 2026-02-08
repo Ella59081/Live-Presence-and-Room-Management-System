@@ -1,4 +1,4 @@
-package com.task.Room_Mangement_System.Enums;
+package com.task.Room_Mangement_System.enums;
 
 public enum MessageType {
     JOIN,

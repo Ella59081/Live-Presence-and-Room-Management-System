@@ -1,6 +1,6 @@
-package com.task.Room_Mangement_System.dtos;
+package com.task.Room_Mangement_System.dto;
 
-import com.task.Room_Mangement_System.Enums.MessageType;
+import com.task.Room_Mangement_System.enums.MessageType;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

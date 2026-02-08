@@ -1,14 +1,13 @@
 package com.task.Room_Mangement_System.controller;
-import com.task.Room_Mangement_System.dtos.JoinRoomDto;
-import com.task.Room_Mangement_System.dtos.LeaveRoomDto;
-import com.task.Room_Mangement_System.dtos.PingDto;
-import com.task.Room_Mangement_System.dtos.PresenceMessageDto;
+import com.task.Room_Mangement_System.dto.JoinRoomDto;
+import com.task.Room_Mangement_System.dto.LeaveRoomDto;
+import com.task.Room_Mangement_System.dto.PingDto;
+import com.task.Room_Mangement_System.dto.PresenceMessageDto;
 import com.task.Room_Mangement_System.service.PresenceService;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.socket.*;
 import org.springframework.web.socket.handler.TextWebSocketHandler;
 import tools.jackson.databind.ObjectMapper;
-import static com.task.Room_Mangement_System.Enums.MessageType.*;
 
 @Controller
 public class PresenceWebSocketController extends TextWebSocketHandler {
